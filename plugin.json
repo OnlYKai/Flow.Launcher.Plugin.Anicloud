@@ -1,0 +1,12 @@
+{
+    "ID": "e4bce382-6e29-4695-8350-a1ea1c3b37f8",
+    "ActionKeyword": "ani",
+    "Name": "Anicloud",
+    "Description": "Search animes on Anicloud.",
+    "Author": "OnlYKai",
+    "Version": "1.0.0",
+    "Language": "python",
+    "Website": "https://github.com/OnlYKai/Flow.Launcher.Plugin.Anicloud",
+    "IcoPath": "Images\\app.png",
+    "ExecuteFileName": "main.py"
+}
