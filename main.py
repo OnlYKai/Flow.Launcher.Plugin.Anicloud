@@ -16,8 +16,7 @@ url = 'https://anicloud.io'
 class Anicloud(FlowLauncher):
 
     def query(self, query):
-        if len(query) < 0:
-            return
+        query = query.strip().lower()
 
         try:
             data = requests.get(url + '/animes-alphabet').text
